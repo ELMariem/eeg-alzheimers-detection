@@ -6,6 +6,7 @@ Unlike standard implementations, this project prioritizes **absolute scientific 
 ##  Environment Setup (Requirements)
 ```bash
 pip install -r requirements.txt
+```
 ##  Architecture Overview
 
 The pipeline employs a hybrid feature extraction and classification architecture, designed to capture both traditional neurophysiological markers and deep temporal patterns:
