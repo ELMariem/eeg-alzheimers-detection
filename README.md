@@ -1,9 +1,11 @@
-# 🧠 Alzheimer's Disease Detection from EEG Signals
+# Alzheimer's Disease Detection from EEG Signals
 
 This repository contains a robust, machine-learning pipeline for classifying Alzheimer's Disease (AD), Frontotemporal Dementia (FTD), and Cognitively Normal (CN) subjects using resting-state EEG data. 
 
 Unlike standard implementations, this project prioritizes **absolute scientific rigor**, focusing on zero data leakage and clinical interpretability using SHAP (SHapley Additive exPlanations).
-
+##  Environment Setup (Requirements)
+```bash
+pip install -r requirements.txt
 ##  Architecture Overview
 
 The pipeline employs a hybrid feature extraction and classification architecture, designed to capture both traditional neurophysiological markers and deep temporal patterns:
