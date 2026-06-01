@@ -1,0 +1,6 @@
+Feature,Class,SHAP_sign,EEG_finding,Clinical_note
+theta_frontal,AD/FTD,+,Elevated slow activity,Diffuse slowing — review meds/sleep
+alpha_occipital_parietal,AD/FTD,-,Reduced posterior alpha,Loss of posterior dominant rhythm
+alpha_coherence_P3P4_O1O2,AD/FTD,-,Reduced alpha connectivity,Dysconnectivity marker
+beta_central,mixed,?,Variable beta modulation,Interpret with meds/EMG
+theta_alpha_ratio_frontal,AD/FTD,+,Increased slow-to-alpha ratio,Robust cognitive impairment marker

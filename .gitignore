@@ -1,0 +1,28 @@
+# 1. Environnement Virtuel (NE JAMAIS PUSHER)
+venv/
+
+# 2. Données Brutes (Strictement interdit)
+ds004504/
+*.set
+*.fdt
+*.bdf
+*.edf
+
+# 3. Données générées (Fichiers Numpy très lourds)
+outputs/epochs/
+*.npy
+
+# 4. Modèles et Poids (Fichiers binaires)
+# Décommente ces lignes si tes modèles font plus de 50-100 Mo
+*.h5
+*.pkl
+
+# 5. Fichiers CSV massifs (Features et prédictions par epoch)
+outputs/features_fused.csv
+outputs/features_handcrafted.csv
+outputs/epoch_predictions.csv
+
+# 6. Fichiers systèmes et temporaires
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
